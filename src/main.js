@@ -4,6 +4,7 @@ import App from './App'
 import router from './router'
 
 import 'normalize.css/normalize.css'
+import '@/assets/scss/base.scss'
 import fastclick from 'fastclick'
 
 fastclick.attach(document.body)

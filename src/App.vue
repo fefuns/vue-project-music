@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    hello world!
+    <m-header></m-header>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import MHeader from '@/pages/m-header/m-header'
+  export default {
+    name: 'app',
+    components: {
+      MHeader
+    }
+  }
 </script>
 
 <style lang="scss">
